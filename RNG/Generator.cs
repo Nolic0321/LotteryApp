@@ -32,7 +32,7 @@ namespace RNG
 
         public int Generate()
         {
-            return rand.Next(max);
+            return rand.Next(min,max);
         }
     }
 }
